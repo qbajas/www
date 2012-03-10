@@ -18,8 +18,9 @@ echo
                     <li> <a href="projects.php#hb">&#187; Helpbets.com </a> </li>
                     <li> <a href="projects.php#sn">&#187; Sportnewsy.pl </a> </li>
                     <li> <a href="projects.php#dss">&#187; Decision support system </a> </li>
-                    <li> <a href="projects.php#c">&#187; Crossword - Java </a> </li>
-                    <li> <a href="projects.php#t">&#187; Tetris - Pascal </a> </li>
+                    <li> <a href="projects.php#pks">&#187; Professional Klika Solver </a> </li>
+                    <li> <a href="projects.php#c">&#187; Crossword </a> </li>
+                    <li> <a href="projects.php#t">&#187; Tetris </a> </li>
                     </ul>
             </li>
             <li> <a href="achievements.php"> <img src="images/achievements.png"  alt="achievements" />  Skills  </a>
