@@ -8,19 +8,21 @@ echo
             <li > <a href="index.php"> <img src="images/home.png"  alt="homepage" />  Home </a>
                     <ul>
                     <li> <a href="index.php#me"> &#187; About me  </a> 			</li>
-                    <li> <a href="index.php#motto"> &#187; Motto  </a> </li>
                     <li> <a href="index.php#contact"> &#187; Contact </a>	</li>
+                    <li> <a href="index.php#others"> &#187; Others  </a> </li>
                     </ul>
             </li>
             <li> <a href="projects.php"> <img src="images/projects.png"  alt="projects" />  Projects </a>
                     <ul >
-                    <li> <a href="projects.php#a">&#187; Akord website </a> </li>
+                    <li> <a href="projects.php#le">&#187; Learning english </a> </li>
+                    <li> <a href="projects.php#hb">&#187; Helpbets.com </a> </li>
+                    <li> <a href="projects.php#sn">&#187; Sportnewsy.pl </a> </li>
+                    <li> <a href="projects.php#dss">&#187; Decision support system </a> </li>
                     <li> <a href="projects.php#c">&#187; Crossword - Java </a> </li>
                     <li> <a href="projects.php#t">&#187; Tetris - Pascal </a> </li>
-                    <li> <a href="projects.php#m">&#187; More </a> </li>
                     </ul>
             </li>
-            <li> <a href="achievements.php"> <img src="images/achievements.png"  alt="achievements" />  Achievements </a>
+            <li> <a href="achievements.php"> <img src="images/achievements.png"  alt="achievements" />  Skills  </a>
                     <ul >
                     <li> <a href="achievements.php#a">&#187; Achievements </a> </li>
                     <li> <a href="achievements.php#s">&#187; Skills </a> </li>

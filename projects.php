@@ -1,112 +1,120 @@
 <?php header('Content-Type: text/html; charset=utf-8'); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html  xmlns="http://www.w3.org/1999/xhtml">
-	
-    <head>
-		
-		<meta  http-equiv="Content-Type"  content="application/xhtml+xml; charset=UTF-8"  />
-		<meta  http-equiv="Content-Style-Type" content="text/css" />
-		
-		<title> Jakub Jaśkowiec </title>	
-		
-		<link rel="stylesheet"   title="ver1"     href="style/style1.css" type="text/css" />
-		<link rel="alternate stylesheet"   title="ver2"     href="style/style2.css" type="text/css"  />
 
-                <script type="text/javascript" src="js/moj1.js" > </script>
-                
-    </head>
-	
-    <body onload="styles()">
-		
-	<div class="header" id="top">
-			<h1> Jakub Jaśkowiec </h1>
+<head>
 
-            <div class="style_changer" >
-                Change style:
-                <select  id="changer" >
-                    <option disabled="disabled" >Choose style </option>
-                </select>
-            </div>
-		
-		
-	<div class="menu" >
-				
-        <?php
-		//header('Content-Type: text/html; charset=utf-8');
-        include('php/menu.php');
-        print_menu();
-        //echo "sukces";
-        ?>
-			
-			
-		</div>
-		</div>
-		
-		
-		<div class="content">
-			
-			<h2 id="a"> Akord website </h2>
-			The website was made for a Cracow's company, Akord sp. z o.o.
-			<br/>
-			The old version of the website can be found here: <a href="http://www.akord.com.pl/">www.akord.com.pl</a>
-			<br/>
-			Currently, I am working on the new version of the website, which should look more or less as shown below:
-			<br/>
-			<a href="screen_akord.png"> <img src="screen_akord.png" width="400" alt="Website" /> </a>
-			
-						
-			
-			<h2 id="c"> Crossword -  Java </h2>
-			An interactive program, which creates simple and advanced crosswords from the given database of words and definitions, and provides
-			an interactive GUI for solving them. The program can be used either for fun or for educational purposes, e.g. learning new words.
-			<br/>
-			Screenshots:
-			<br/>
-			<a href="screen_crossword.png"> <img src="screen_crossword.png" width="400" alt="Crossword" /> </a>
-			<br/>
-			
-				Working on integration of the program with the website ...
-			
-			<h2 id="t"> Tetris - Pascal </h2>
-			A game written as a 1st year project, in old-fashioned Pascal.
-			<br/>
-			<a href="images/tetris.pas">Source code</a>
-			<br/>
-			Screenshots:
-			<br/>
-			<a href="images/screen_tetris2.png"> <img src="images/screen_tetris2.png" width="400" alt="Crossword" /> </a>
-			
-			
-			<h2 id="m"> More to come ... </h2>
-			These are just a few examples of my work.
-			<br/>
-			Since I am in the second year of my studies, I hope to add some more projects in the non-distant future ...
-			
-		</div>
-		
-		
-	<div class="footer">
+<meta  http-equiv="Content-Type"  content="application/xhtml+xml; charset=UTF-8"  />
+<meta  http-equiv="Content-Style-Type" content="text/css" />
 
-			
-			&copy; 2010 Jakub Jaśkowiec 			
-			
-			
-		<a href="http://validator.w3.org/check?uri=referer"><img
-        src="http://www.w3.org/Icons/valid-xhtml10"
-        alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
-		
-    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Poprawny CSS!" />
-    </a>
+<title> Jakub Jaśkowiec </title>	
 
-		<a href="#top"> To the top </a>			
-			
-	</div>
-		
-		
-		
-	</body>
-	</html>
+<link rel="stylesheet"   title="ver1"     href="style/style1.css" type="text/css" />
+<link rel="alternate stylesheet"   title="ver2"     href="style/style2.css" type="text/css"  />
+
+<script type="text/javascript" src="js/moj1.js" > </script>
+
+</head>
+
+<body onload="styles()">
+
+<div class="header" id="top">
+<h1> Jakub Jaśkowiec </h1>
+
+<div class="style_changer" >
+Change style:
+<select  id="changer" >
+<option disabled="disabled" >Choose style </option>
+</select>
+</div>
+
+
+<div class="menu" >
+
+<?php
+//header('Content-Type: text/html; charset=utf-8');
+include('php/menu.php');
+print_menu();
+//echo "sukces";
+?>
+
+
+</div>
+</div>
+
+
+<div class="content">
+
+<h2 id="le"> Learning english </h2>
+Web application for learning english.
+<br/>
+Github repository: 
+<a href="https://github.com/qbajas/inzynierka">https://github.com/qbajas/inzynierka</a>
+<br/>
+Technology: Ruby on Rails.
+<br/>
+<a href="http://english.jaskowiec.com.pl"> <img src="images/screen-le.png" width="400" alt="Learning english" /> </a>
+
+<h2 id="hb"> Helpbets.com </h2>
+Ruby on Rails commercial project.
+<br/>
+<a href="http://helpbets.com"> <img src="images/screen-hb.png" width="400" alt="Helpbets" /> </a>
+
+<h2 id="sn"> Sportnewsy.pl </h2>
+Ruby on Rails commercial project.
+<br/>
+<a href="http://sportnewsy.pl"> <img src="images/screen-sn.png" width="400" alt="Sportnewsy" /> </a>
+
+<h2 id="dss">Decision support system</h2>
+Medical decision support system based on neural network.
+<br/>
+Co-creators: Witold Baran, Bartlomiej Hyzy, Mateusz Niesyto, Michal Pierog.
+<br/>
+Github repository: <a href="https://github.com/qbajas/medycyna_projekt">https://github.com/qbajas/medycyna_projekt</a>
+<br/>
+Technology: Java
+<br/>
+<a href="images/screen-dss.png"> <img src="images/screen-dss.png" width="400" alt="" /> </a>
+
+<h2 id="pks"> Professional klika solver </h2>
+The aim of this program is to showcase the possibilities of genetic algorithm on the example of solving the maximum clique problem.
+<br/>
+The algorithm finds the biggest clique in an undirected graph (clique is a subset of graph's vertices such that every two vertices in the subset are connected by an edge).			
+<br/>
+Co-creators:   Michal Pierog, Witold Baran.
+<br/>
+Technology: Java.
+<br/>
+
+<a href="images/screen_klika.png"> <img src="images/screen_klika.png" width="400" alt="Klika" /> </a>
+
+
+<h2 id="c"> Crossword </h2>
+An interactive program, which creates simple and advanced crosswords from the given database of words and definitions, and provides
+an interactive GUI for solving them. The program can be used either for fun or for educational purposes, e.g. learning new words.
+<br/>
+Technology: Java
+<br/>
+<a href="screen_crossword.png"> <img src="screen_crossword.png" width="400" alt="Crossword" /> </a>
+
+<h2 id="t"> Tetris </h2>
+A game written as a 1st year project, in old-fashioned Pascal.
+<br/>
+<a href="images/tetris.pas">Source code</a>
+<br/>
+<a href="images/screen_tetris2.png"> <img src="images/screen_tetris2.png" width="400" alt="Crossword" /> </a>
+
+
+
+</div>
+
+
+<?php
+include('php/footer.php');
+?>
+
+
+
+</body>
+</html>

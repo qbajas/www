@@ -55,6 +55,8 @@ print_menu();
 <div class="field">
 <a href="images/me.jpg"> <img style="float:right; margin-top:0;" src="images/me_mini.jpg" alt="Jakub Jaśkowiec 2008" /> </a>
 I am in the fourth year of <strong>Computer Science</strong> at the University of Science and Technology (AGH) in Cracow.
+<br/>
+Currently, I am working as a Ruby on Rails developer.
 </div>            
 <br/>
 
@@ -78,26 +80,10 @@ My Github account : <a href="http://github.com/qbajas">http://github.com/qbajas<
 </div>
 
 
-<div class="footer">
 
-
-&copy; 2010 Jakub Jaśkowiec 			
-
-
-<a href="http://validator.w3.org/check?uri=referer"><img
-src="http://www.w3.org/Icons/valid-xhtml10"
-alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
-
-<a href="http://jigsaw.w3.org/css-validator/check/referer">
-<img style="border:0;width:88px;height:31px"
-src="http://jigsaw.w3.org/css-validator/images/vcss"
-alt="Poprawny CSS!" />
-</a>
-
-<a href="#top"> To the top </a>		
-
-</div>
-
+<?php
+include('php/footer.php');
+?>
 
 
 
