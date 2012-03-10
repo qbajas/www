@@ -1,0 +1,350 @@
+
+/* --------------- GENERAL ELEMENTS	 ------------------- */
+
+body
+{
+
+font-size: 1.1em;
+font-family:  Cambria, Georgia, "Segoe UI", Tahoma;
+line-height: 1.5em;
+
+background-image:   url(../images/bg2.png);
+background-repeat:  repeat-x;
+background-position:  top;
+
+margin-top: 0px;
+}
+
+a
+{
+color: black;
+}
+
+img
+{
+vertical-align: middle;
+border-radius: 10px; 
+box-shadow: 10px 10px 15px #888;
+/*-moz-box-shadow: 10px 10px 5px #888;
+-webkit-box-shadow: 10px 10px 5px #888;*/
+margin: 10px;
+
+}
+
+
+
+a img 
+{
+border: 0;
+}
+
+
+h1
+{
+font-family: Tahoma;
+color: white;
+margin-top: 0px;
+margin-left: 30px;
+padding-top: 30px;
+text-shadow: black 0.1em 0.1em 0.2em;
+/*text-align: center;*/
+
+/*text-shadow: 0 0 4px white, 0 -5px 4px #ff3, 2px -10px 6px #fd3, -2px -15px 11px #f80, 2px -25px 18px #f20;*/
+}
+
+h2
+{
+margin-top: 60px;
+color: #0066CC;
+border-style: solid;
+border-width:0px;	
+border-bottom-width: 10px;
+border-color: orange;
+font-variant: small-caps;
+border-radius: 10px;
+}
+
+/* --------------- HEADER -------------------	 */
+
+.header
+{
+background: url(../images/bg1.png) no-repeat center top;
+
+}
+
+
+/* --------------- MENU ----------------------  	*/
+
+
+
+/* --------------- General ------------------- */
+.menu
+{
+/*background: #0066CC;*/
+width: 850px ;
+margin-left: auto;
+margin-right: auto;
+/*background-image: 
+-webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.2, rgb(0,173,255)),
+    color-stop(0.5, rgb(0,146,255)),
+    color-stop(0.9, rgb(0,102,255))
+);
+background-image:
+-moz-linear-gradient(
+    center top,
+    rgb(0,153,255) 20%,
+    rgb(0,136,255) 50%,
+    rgb(0,102,255) 90%
+);*/
+/*-moz-border-radius: 25px; -webkit-border-radius: 25px;*/
+
+color: white;
+font-family: Georgia;
+
+font-variant: small-caps;
+margin-top: 40px;
+
+border-style: solid;
+border-width:0px;	
+border-color: orange;
+
+}
+
+.menu img
+{
+margin: 0px;
+box-shadow: 0px 0px 0px #888;
+/*-moz-box-shadow: 0px 0px 0px #888;
+-webkit-box-shadow: 0px 0px 0px #888;*/
+border-radius: 0px; 
+padding: 0px;
+/*-moz-border-radius: 0px; -webkit-border-radius: 0px;*/
+}
+
+.menu a
+{
+text-decoration: none;
+color: white;
+}
+
+
+/* --------------- Mainmenu ------------------- */
+.menu .mainmenu  
+{
+margin: 0px;
+text-align: center;
+font-size: 1.6em;
+border-radius: 20px; 
+background: #2b69a1;
+text-shadow: black 0.05em 0.05em 0.2em;
+font-weight: bold;
+}
+
+.menu .mainmenu  ul 
+{
+margin: 0px;
+list-style: none;
+padding: 15px 0px;
+}
+
+.menu .mainmenu  li:hover 
+{
+text-decoration: none;
+/*background: #006699;*/
+background: #e69200;
+border-radius: 10px; 
+/*-moz-border-radius:1 10px; -webkit-border-radius: 10px;*/
+}
+
+.menu .mainmenu ul li 
+{
+margin-left: 0px;
+margin-right: 0px;
+display: inline;
+padding: 15px 15px;
+}
+
+.menu .mainmenu ul li a
+{
+padding: 25px 0px;
+}
+
+.style_changer
+{
+    float: right;
+    margin-top: -50px;
+    margin-right: 40px;
+    list-style-type: none;
+    font-size: 1.1em;
+    color: white;
+
+}
+
+/* --------------- Nav ------------------- */
+#nav
+{
+
+}
+
+#nav ul
+{
+display: none;
+
+position: absolute;
+top: 177px;
+left: 50%;
+width: 650px;
+margin-left:-325px;
+
+/*position: absolute;
+top: 40px;
+left: 0;
+margin: 0;
+padding: 0;
+width:200px;*/
+
+color: black;
+font-size: 0.6em;
+background: #2b69a1;
+border-radius: 10px; 
+opacity: 0.5;
+box-shadow: 1px 5px 5px #888;
+}
+
+#nav  ul li a
+{
+padding: 5px 15px;
+display: block;
+}
+
+#nav ul li
+{
+padding: 0;
+display: block;
+}
+
+#nav  ul:hover
+{
+opacity: 1;
+}
+
+
+#nav li:hover > ul 
+{
+display:block;
+}
+
+
+/* --------------- Contents ------------------- */
+.menu .contents 
+{
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+margin-top: 58px;
+width: 800px;
+color: #091440;
+}
+
+.menu .contents ul li 
+{
+display: inline;
+margin-right: 5px;
+}
+
+
+.menu .contents ul li a
+{
+color: #091440;
+padding: 5px 10px;
+}
+
+.menu .contents  a:hover
+{
+text-decoration: none;
+background: orange;
+border-radius: 10px; 
+}
+
+
+
+
+
+
+
+
+/* --------------- BODY ------------------- 	*/
+.content
+{
+margin: 50px 10%;
+margin-top: 0px;
+/*background: url(../images/bg3.png);
+padding: 0px 20px;*/
+
+border-radius: 15px;
+}
+
+
+
+/* --------------- FOOTER ------------------- 	*/
+
+.footer
+{
+background: #0099FF;
+border-radius: 15px; 
+/*-moz-border-radius: 15px; -webkit-border-radius: 15px;*/
+text-align: center;
+margin-top: 0px;
+color: white;
+padding: 10px;
+}
+
+.footer img
+{
+margin: 0px;
+margin-left: 20px;
+margin-right: 20px;
+box-shadow: 0px 0px 0px #888;
+/*-moz-box-shadow: 0px 0px 0px #888;
+-webkit-box-shadow: 0px 0px 0px #888;*/
+border-radius: 0px; 
+/*-moz-border-radius: 0px; -webkit-border-radius: 0px;*/
+}
+
+.footer a
+{
+color: white;
+}
+
+
+/*---------------- TABLE ELEMENTS ---------------- */
+
+.table1 
+{
+border-spacing: 0px 10px;
+}
+
+.table1 tr td
+{border-radius: 10px;
+padding: 0px 20px;}
+
+.table1 tr td:hover
+{
+text-decoration: underline;
+}
+
+.col1
+{
+background: #eeeeee;
+width: 200px;
+}
+
+.col2  
+{
+background: #ffffa3;
+
+}

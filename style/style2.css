@@ -1,0 +1,250 @@
+
+/* --------------- GENERAL ELEMENTS	 ------------------- */
+
+body
+{
+font-size: 1.1em;
+font-family:  "Segoe UI", Tahoma;
+}
+
+
+a
+{
+color: black;
+}
+
+img
+{
+vertical-align: middle;
+border-radius: 10px; 
+box-shadow: 10px 10px 15px #888;
+/*-moz-box-shadow: 10px 10px 5px #888;
+-webkit-box-shadow: 10px 10px 5px #888;*/
+margin: 10px;
+
+}
+
+a img 
+{
+border: 0;
+}
+
+
+h1
+{
+font-family: Tahoma;
+background: #0099FF;
+padding: 15px;
+color: white;
+
+border-radius: 10px;
+box-shadow: 10px 10px 15px #888;
+}
+
+h2
+{
+margin-top: 60px;
+color: #0066CC;
+border-style: solid;
+border-width:0px;	
+border-bottom-width: 10px;
+border-color: orange;
+font-variant: small-caps;
+border-radius: 10px;
+}
+
+
+
+/* --------------- MENU ------------------- */
+
+
+.menu
+{
+
+
+float: left;
+
+
+/*
+
+background-image: 
+-webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.2, rgb(0,173,255)),
+    color-stop(0.5, rgb(0,146,255)),
+    color-stop(0.9, rgb(0,102,255))
+);
+background-image:
+-moz-linear-gradient(
+    center top,
+    rgb(0,153,255) 20%,
+    rgb(0,136,255) 50%,
+    rgb(0,102,255) 90%
+);*/
+
+
+/*-moz-border-radius: 25px; -webkit-border-radius: 25px;*/
+color: white;
+font-family: Georgia;
+font-variant: small-caps;
+
+
+border-style: solid;
+border-width:0px;	
+border-color: orange;
+
+margin-top: 40px;
+
+}
+
+
+.menu img
+{
+margin: 0px;
+box-shadow: 0px 0px 0px #888;
+/*-moz-box-shadow: 0px 0px 0px #888;
+-webkit-box-shadow: 0px 0px 0px #888;*/
+border-radius: 0px; 
+/*-moz-border-radius: 0px; -webkit-border-radius: 0px;*/
+}
+
+.menu a
+{
+text-decoration: none;
+color: white;
+border-style: solid;
+border-width: 1px;
+border-color: transparent;
+}
+
+.menu  a:hover
+{
+text-decoration: none;
+background: #006699;
+border-radius: 10px; 
+/*-moz-border-radius: 10px; -webkit-border-radius: 10px;*/
+
+}
+
+.menu ul 
+{
+margin: 0px;
+padding: 0px;
+}
+
+.menu .mainmenu  
+{
+margin: 10px;
+text-align: left;
+font-size: 1.7em;	
+
+background: #0099FF;
+border-radius: 15px; 
+padding:15px;
+padding-top:10px;
+padding-bottom:10px;
+
+box-shadow: 10px 10px 15px #888;
+}
+
+.menu .mainmenu ul li 
+{
+display: block;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.menu .mainmenu ul li a
+{
+display: block;
+}
+
+.menu .contents 
+{
+text-align: center;
+margin: 15px;
+margin-top:30px;
+border-radius: 15px; 
+padding: 10px;
+background: #0099FF;
+
+box-shadow: 10px 10px 15px #888;
+}
+
+.menu .contents ul li 
+{
+display: block;
+font-style:italic;
+}
+.menu .contents ul li a
+{
+display: block;
+margin: 0px 30px; 
+text-decoration:none;
+}
+
+#nav ul
+{
+display: none;
+}
+
+
+.style_changer
+{
+    float: right;
+    margin-top: -70px;
+    margin-right: 40px;
+    list-style-type: none;
+    font-size: 1.1em;
+    color: white;
+
+}
+
+/* --------------- BODY ------------------- */
+.content
+{
+margin: 40px 5%;
+margin-left: 350px;
+
+}
+
+
+
+/* --------------- FOOTER ------------------- */
+
+.footer
+{
+background: #0099FF;
+border-radius: 15px; 
+/*-moz-border-radius: 15px; -webkit-border-radius: 15px;*/
+text-align: center;
+margin-top: 70px;
+color: white;
+padding: 10px;
+box-shadow: 10px 10px 15px #888;
+}
+
+.footer img
+{
+margin: 0px;
+margin-left: 20px;
+margin-right: 20px;
+box-shadow: 0px 0px 0px #888;
+/*-moz-box-shadow: 0px 0px 0px #888;
+-webkit-box-shadow: 0px 0px 0px #888;*/
+border-radius: 0px; 
+/*-moz-border-radius: 0px; -webkit-border-radius: 0px;*/
+}
+
+.footer a
+{
+color: white;
+}
+
+#spacer
+{
+width: 150px;
+display: inline;
+}

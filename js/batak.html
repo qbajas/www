@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Lab JS batak</title>
+<style type="text/css">
+div#d1, div#d2, div#d3, div#d4 {
+	background-color: red;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+div#d1 {
+	top: 10px;
+}
+div#d2 {
+	right: 10px;
+}
+div#d3 {
+	bottom: 10px;
+}
+div#d4 {
+	bottom: 10px;
+	right: 10px;
+}
+div#srodek {
+	text-align: center;
+}
+</style>
+
+<script type="text/javascript">
+    var odliczanie;
+    var numer;
+    var czasStart;
+    var czasStop;
+<!--
+
+var czas = -1
+function odliczaj(){
+        clearTimeout(odliczanie);
+	czas++
+	document.getElementById('komunikat').innerHTML =  czas+" ms";
+	odliczanie = setTimeout("odliczaj()",10);
+}
+
+function wcisnieto ( nr )
+{
+    //alert(nr.target);
+    if (numer == nr )
+    {
+        for (var i=1;i<5;i++)
+        {
+            var aktywny = document.getElementById('d'+i);
+            aktywny.style.backgroundColor = 'red';
+        }
+        czasStop = new Date();
+        //alert(czasStop.getTime());
+        //alert(czasStart.getTime());
+        var czasReakcji = (czasStop.getTime()-czasStart.getTime())/1000
+        document.getElementById('komunikat').innerHTML = 
+             czasReakcji+" s" + " <br> "+ document.getElementById('komunikat').innerHTML;
+
+        start();
+    }
+}
+
+function start()
+{
+    numer = Math.ceil( Math.random()*4 );
+    //alert(nr);
+    var aktywny = document.getElementById('d'+numer);
+    aktywny.style.backgroundColor = 'Lime';
+    //czas= -1; odliczaj();
+    czasStart = new Date();
+}
+// -->
+</script>
+        
+</head>
+<body>
+	<div id="d1" onclick="wcisnieto(1)"></div>
+	<div id="d2" onclick="wcisnieto(2)"></div>
+	<div id="d3" onclick="wcisnieto(3)"></div>
+	<div id="d4" onclick="wcisnieto(4)"></div>
+	<div id="srodek">
+		<form action="#">
+			<p><input type="button" value="start" onclick="start()" /></p>
+		</form>
+		<p id="komunikat"></p>
+	</div>
+</body>
+</html>
