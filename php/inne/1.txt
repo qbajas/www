@@ -1,2 +1,0 @@
-<h1> Moja strona </h1>
-<p> Witam serdecznie na mojej stronie </p>
