@@ -33,10 +33,12 @@ echo
 
             <div class="contents">
                     <ul>
-                    <li> Contents:</li>
+			<li></li>
+<!--                    <li> Contents:</li>
                     <li> <a href="#me"> &#187; About me  </a> 			</li>
                     <li> <a href="#motto"> &#187;  Motto  </a> </li>
                     <li> <a href="#contact"> &#187; Contact </a>	</li>
+-->
                     </ul>
             </div>
 ';
