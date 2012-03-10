@@ -71,7 +71,10 @@ e-mail: <a href="mailto:qbajas@gmail.com"> qbajas@gmail.com </a>
 
 <h2 id="others"> Others </h2>
 <div class="field">
-My Github account : <a href="http://github.com/qbajas">http://github.com/qbajas</a>
+My Github account: <a href="http://github.com/qbajas">http://github.com/qbajas</a>
+<br/>
+My Goldenline profile: <a href="http://www.goldenline.pl/jakub-jaskowiec">http://www.goldenline.pl/jakub-jaskowiec</a>
+
 </div>            
 
 <br/>
