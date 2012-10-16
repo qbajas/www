@@ -56,7 +56,7 @@
 				<col span="1" class="col1" />
 				<col span="1" class="col2" />
 			</colgroup>
-			<tr><td>Programming languages</td>	<td> Ruby, Java, SQL, C#</td></tr>
+			<tr><td>Programming languages</td>	<td> Ruby, Java, SQL</td></tr>
 			<tr><td>Web technologies </td> 	<td> Ruby on Rails, (X)HTML, CSS </td></tr>
 
 <tr><td>Ruby on Rails</td> <td>Rspec, Haml, TDD, VIM</td> </tr>
