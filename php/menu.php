@@ -14,6 +14,8 @@ echo
             </li>
             <li> <a href="projects.php"> <img src="images/projects.png"  alt="projects" />  Projects </a>
                     <ul >
+                    <li> <a href="projects.php#pe">&#187; Past Explorer </a> </li>
+                    <li> <a href="projects.php#fr">&#187; Face recognition </a> </li>
                     <li> <a href="projects.php#le">&#187; Learning english </a> </li>
                     <li> <a href="projects.php#hb">&#187; Helpbets.com </a> </li>
                     <li> <a href="projects.php#sn">&#187; Sportnewsy.pl </a> </li>

@@ -46,6 +46,22 @@ print_menu();
 
 <div class="content">
 
+<h2 id="pe">Past Explorer</h2>
+Social network service which aim is to show how different things changed. Written during 4th year of studies with Bartlomiej Hyzy and Michal Pierog. Technology: C# (ASP .Net MVC 3), PostgreSQL, NHibernate, JQuery.
+<br/>
+Github repository: 
+<a href="https://github.com/qbajas/PhotoHistory">https://github.com/qbajas/PhotoHistory</a>
+<br/>
+<img src="images/screen-pe.png" width="400"/>
+
+<h2 id="fr">Face recognition</h2>
+Program which uses neural network to recognize faces. Created with Michal Pierog. Technology: Java.
+<br/>
+Github repository: 
+<a href="https://github.com/qbajas/Face-recognition">https://github.com/qbajas/Face-recognition</a>
+<br/>
+<img src="images/screen-fr.png" width="400"/>
+
 <h2 id="le"> Learning english </h2>
 Web application for learning english.
 <br/>
