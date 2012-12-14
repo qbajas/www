@@ -47,7 +47,12 @@ print_menu();
 <div class="content">
 
 <h2 id="pe">Past Explorer</h2>
-Social network service which aim is to show how different things changed. Written during 4th year of studies with Bartlomiej Hyzy and Michal Pierog. Technology: C# (ASP .Net MVC 3), PostgreSQL, NHibernate, JQuery.
+Social network service which aim is to show how different things changed. 
+Written during 4th year of studies with Bartlomiej Hyzy and Michal Pierog. 
+<br/>
+We used a lot of design patterns, such as: Abstract Factory, Observer, Composite, Visitor, Strategy, Repository, Row Data Gateway (see documentation).
+<br/>
+Technology: C# (ASP .Net MVC 3), PostgreSQL, NHibernate, JQuery.
 <br/>
 Github repository: 
 <a href="https://github.com/qbajas/PhotoHistory">https://github.com/qbajas/PhotoHistory</a>
@@ -55,7 +60,7 @@ Github repository:
 <img src="images/screen-pe.png" width="400"/>
 
 <h2 id="fr">Face recognition</h2>
-Program which uses neural network to recognize faces. Created with Michal Pierog. Technology: Java.
+Program which uses neural network and PCA to recognize faces. Created with Michal Pierog. Technology: Java.
 <br/>
 Github repository: 
 <a href="https://github.com/qbajas/Face-recognition">https://github.com/qbajas/Face-recognition</a>
@@ -68,7 +73,7 @@ Web application for learning english.
 Github repository: 
 <a href="https://github.com/qbajas/inzynierka">https://github.com/qbajas/inzynierka</a>
 <br/>
-Technology: Ruby on Rails.
+Technology: Ruby on Rails 3.
 <br/>
 <a href="http://english.jaskowiec.com.pl"> <img src="images/screen-le.png" width="400" alt="Learning english" /> </a>
 
@@ -98,6 +103,8 @@ The aim of this program is to showcase the possibilities of genetic algorithm on
 <br/>
 The algorithm finds the biggest clique in an undirected graph (clique is a subset of graph's vertices such that every two vertices in the subset are connected by an edge).			
 <br/>
+The algorithm uses many mechanisms used in genetic algorithms, such as: mutation, crossover, selection. The GUI allows using different versions of this mechanisms and changing other parameters.
+<br/>
 Co-creators:   Michal Pierog, Witold Baran.
 <br/>
 Technology: Java.
@@ -115,9 +122,7 @@ Technology: Java
 <a href="screen_crossword.png"> <img src="screen_crossword.png" width="400" alt="Crossword" /> </a>
 
 <h2 id="t"> Tetris </h2>
-A game written as a 1st year project, in old-fashioned Pascal.
-<br/>
-<a href="images/tetris.pas">Source code</a>
+A game written in Pascal as a 1st year project.
 <br/>
 <a href="images/screen_tetris2.png"> <img src="images/screen_tetris2.png" width="400" alt="Crossword" /> </a>
 
