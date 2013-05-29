@@ -50,19 +50,22 @@ print_menu();
 Social network service which aim is to show how different things changed. 
 Written during 4th year of studies with Bartlomiej Hyzy and Michal Pierog. 
 <br/>
-We used a lot of design patterns, such as: Abstract Factory, Observer, Composite, Visitor, Strategy, Repository, Row Data Gateway (see documentation).
+We used a lot of design patterns, among others: Abstract Factory, Observer, Composite, Visitor, Strategy, Repository, Row Data Gateway (see documentation).
 <br/>
 Technology: C# (ASP .Net MVC 3), PostgreSQL, NHibernate, JQuery.
 <br/>
+<a href="pdf/PastExplorer-Opis-systemu.pdf">Documentation</a>.
 Github repository: 
 <a href="https://github.com/qbajas/PhotoHistory">https://github.com/qbajas/PhotoHistory</a>
 <br/>
 <img src="images/screen-pe.png" width="400"/>
 
 <h2 id="fr">Face recognition</h2>
-Program which uses neural network and PCA to recognize faces. Created with Michal Pierog. Technology: Java.
+Program which uses neural network and PCA to recognize faces. 
 <br/>
-Github repository: 
+Created with Michal Pierog. Technology: Java.
+<br/>
+<a href="pdf/Rozpoznawanie-twarzy.pdf">Documentation</a>. Github repository: 
 <a href="https://github.com/qbajas/Face-recognition">https://github.com/qbajas/Face-recognition</a>
 <br/>
 <img src="images/screen-fr.png" width="400"/>
@@ -82,17 +85,19 @@ Ruby on Rails commercial project.
 <br/>
 <a href="http://helpbets.com"> <img src="images/screen-hb.png" width="400" alt="Helpbets" /> </a>
 
+<!--
 <h2 id="sn"> Sportnewsy.pl </h2>
 Ruby on Rails commercial project.
 <br/>
 <a href="http://sportnewsy.pl"> <img src="images/screen-sn.png" width="400" alt="Sportnewsy" /> </a>
+-->
 
 <h2 id="dss">Decision support system</h2>
 Medical decision support system based on neural network.
 <br/>
 Co-creators: Witold Baran, Bartlomiej Hyzy, Mateusz Niesyto, Michal Pierog.
 <br/>
-Github repository: <a href="https://github.com/qbajas/medycyna_projekt">https://github.com/qbajas/medycyna_projekt</a>
+<a href="pdf/Sieci-neuronowe-System-wspomagania-decyzji.pdf">Documentation</a>. Github repository: <a href="https://github.com/qbajas/medycyna_projekt">https://github.com/qbajas/medycyna_projekt</a>
 <br/>
 Technology: Java
 <br/>
@@ -103,11 +108,12 @@ The aim of this program is to showcase the possibilities of genetic algorithm on
 <br/>
 The algorithm finds the biggest clique in an undirected graph (clique is a subset of graph's vertices such that every two vertices in the subset are connected by an edge).			
 <br/>
-The algorithm uses many mechanisms used in genetic algorithms, such as: mutation, crossover, selection. The GUI allows using different versions of this mechanisms and changing other parameters.
+The algorithm uses many mechanisms used in genetic algorithms, such as: mutation, crossover, selection. The GUI allows using different versions of these mechanisms and changing other parameters.
 <br/>
 Co-creators:   Michal Pierog, Witold Baran.
-<br/>
 Technology: Java.
+<br/>
+<a href="pdf/Problem maksymalnej kliki.pdf">Documentation</a>
 <br/>
 
 <a href="images/screen_klika.png"> <img src="images/screen_klika.png" width="400" alt="Klika" /> </a>

@@ -53,7 +53,6 @@ print_menu();
 
 <h2 id="me"> About me </h2>
 <div class="field">
- <img style="float:right; margin-top:0;" src="images/me_mini.jpg" alt="Jakub Jaśkowiec 2008" /> 
 I am in the fifth year of <strong>Computer Science</strong> at the University of Science and Technology (AGH) in Cracow.
 <br/>
 Currently, I work as a Java developer.

@@ -18,7 +18,6 @@ echo
                     <li> <a href="projects.php#fr">&#187; Face recognition </a> </li>
                     <li> <a href="projects.php#le">&#187; Learning english </a> </li>
                     <li> <a href="projects.php#hb">&#187; Helpbets.com </a> </li>
-                    <li> <a href="projects.php#sn">&#187; Sportnewsy.pl </a> </li>
                     <li> <a href="projects.php#dss">&#187; Decision support system </a> </li>
                     <li> <a href="projects.php#pks">&#187; Professional Klika Solver </a> </li>
                     <li> <a href="projects.php#c">&#187; Crossword </a> </li>
